@@ -6,6 +6,7 @@ import { CrisisListComponent } from './crisis-list.component';
 import { PageNotFoundComponent } from './page-not-found.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HeroesModule } from './heroes/heroes.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 @NgModule({
@@ -15,6 +16,7 @@ import { HeroesModule } from './heroes/heroes.module';
     PageNotFoundComponent
   ],
   imports: [
+    BrowserAnimationsModule,
     BrowserModule,
     HeroesModule,
     AppRoutingModule,
